@@ -1,0 +1,81 @@
+Desafio: Calcular a Média Anual de um Aluno da FIAP (Modelo Presencial)
+O sistema de avaliação anual da FIAP é dividido em dois semestres. A Média Anual (MA) é calculada a partir das médias obtidas em cada um desses períodos.
+
+1. Cálculo da Média do 1º Semestre (M1Sem)
+
+A média do primeiro semestre é composta pela ponderação de três notas principais.
+
+Média dos Checkpoints (MCP1Sem): O aluno realiza três avaliações (CP1, CP2, CP3). A média (MCP 
+1Sem) é calculada utilizando a média aritmética simples das duas maiores notas.
+
+Média do Challenge (MS1Sem): O aluno participa de um projeto (Challenge) com duas avaliações (Sprint 1 e Sprint 2). A média (MS1Sem) é a média aritmética simples entre as notas dos dois Sprints.
+
+Global Solution (GS1Sem): O aluno realiza uma prova semestral com nota única.
+
+A média do primeiro semestre (M1Sem) é calculada com os seguintes pesos:
+
+Média dos Checkpoints (MCP1Sem): 20%
+
+Média do Challenge (MS1Sem): 20%
+
+Global Solution (GS1Sem): 60%
+
+Fórmula: Verificar no documento
+
+2. Cálculo da Média do 2º Semestre (M2Sem) 
+
+O cálculo da média do segundo semestre segue a mesma estrutura do primeiro.
+
+Média dos Checkpoints (MCP2Sem): O aluno realiza três novas avaliações (CP4, CP5, CP6). A média (MCP 
+2Sem) é a média aritmética simples das duas maiores notas.
+
+Média do Challenge (MS2Sem): O aluno participa de um novo projeto com duas avaliações (Sprint 3 e Sprint 4). A média (MS2Sem) é a média aritmética simples entre as notas dos dois Sprints.
+
+Global Solution (GS2Sem): O aluno realiza uma segunda prova semestral.
+
+A média do segundo semestre (M2Sem) é calculada com os mesmos pesos:
+
+Média dos Checkpoints (MCP2Sem): 20%
+
+Média do Challenge (MS2Sem): 20%
+
+Global Solution (GS2Sem): 60%
+
+Fórmula: Verificar no documento
+ 
+3. Cálculo da Média Anual (MA) e Status do Aluno
+Com as médias semestrais em mãos, a Média Anual (MA) é calculada, dando maior peso ao segundo semestre.
+
+Média do 1º Semestre (M1Sem): 40%
+
+Média do 2º Semestre (M2Sem): 60%
+
+Fórmula: Verificar no documento
+
+Status do Aluno
+
+O status final é determinado com base na Média Anual (MA) calculada:
+
+Aprovado: Se MA≥6.0. A média final e o status "Aprovado" devem ser exibidos.
+
+Reprovado: Se MA<4.0. A média final e o status "Reprovado" devem ser exibidos.
+
+Exame: Se 4.0≤MA<6.0. O aluno tem direito a um exame.
+
+Neste caso, o programa deve solicitar a Nota de Exame (NE).
+
+Uma nova Média Final (MF) é calculada pela média simples entre a Média Anual (MA) e a Nota de Exame (NE).
+
+Fórmula da Média Final: Verificar no documento.
+​
+ 
+4. Requisitos de Implementação e Boas Práticas
+Para o desenvolvimento da solução, os seguintes requisitos devem ser atendidos:
+
+Validação de Notas: Todas as notas inseridas pelo usuário devem estar no intervalo de 0 a 10. Caso um valor inválido seja digitado, o sistema deve alertar o usuário e solicitar a inserção da nota novamente.
+
+Exibição de Resultados: Todas as médias calculadas (Checkpoints, Sprints, Semestrais e Anual) devem ser exibidas na tela para o usuário.
+
+Modularização: O código deve ser organizado de forma que cada função ou subalgoritmo resolva um único problema específico (ex: uma função para calcular a média dos checkpoints, outra para a média semestral, etc.).
+
+Execução Contínua: Ao final do cálculo, o programa deve perguntar ao usuário se deseja realizar um novo cálculo, aceitando apenas as opções [S] para "Sim" ou [N] para "Não".
