@@ -67,7 +67,6 @@ Neste caso, o programa deve solicitar a Nota de Exame (NE).
 Uma nova Média Final (MF) é calculada pela média simples entre a Média Anual (MA) e a Nota de Exame (NE).
 
 Fórmula da Média Final: Verificar no documento.
-​
  
 4. Requisitos de Implementação e Boas Práticas
 Para o desenvolvimento da solução, os seguintes requisitos devem ser atendidos:
