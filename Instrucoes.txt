@@ -6,9 +6,9 @@ O sistema de avaliação anual da FIAP é dividido em dois semestres. A Média A
 A média do primeiro semestre é composta pela ponderação de três notas principais.
 
 Média dos Checkpoints (MCP1Sem): O aluno realiza três avaliações (CP1, CP2, CP3). A média (MCP 
-1Sem) é calculada utilizando a média aritmética simples das duas maiores notas.
+1Sem) é calculada utilizando a média aritmética simples das duas maiores notas. - FEITO
 
-Média do Challenge (MS1Sem): O aluno participa de um projeto (Challenge) com duas avaliações (Sprint 1 e Sprint 2). A média (MS1Sem) é a média aritmética simples entre as notas dos dois Sprints.
+Média do Challenge (MS1Sem): O aluno participa de um projeto (Challenge) com duas avaliações (Sprint 1 e Sprint 2). A média (MS1Sem) é a média aritmética simples entre as notas dos dois Sprints. - FEITO
 
 Global Solution (GS1Sem): O aluno realiza uma prova semestral com nota única.
 
